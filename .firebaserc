@@ -1,15 +1,15 @@
 {
   "projects": {
-    "default": "tomke-portfolio"
+    "default": "carsplus-93e91"
   },
   "targets": {
-    "tomke-portfolio": {
+    "carsplus-93e91": {
       "hosting": {
         "dev": [
-          "tomke-portfolio-dev"
+          "carsplus-93e91-dev"
         ],
         "prod": [
-          "tomke-portfolio"
+          "carsplus-93e91"
         ]
       }
     }

@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tomke-portfolio": {
+    "carsplus": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -97,13 +97,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tomke-portfolio:build:production"
+              "browserTarget": "carsplus:build:production"
             },
             "development": {
-              "browserTarget": "tomke-portfolio:build:development"
+              "browserTarget": "carsplus:build:development"
             },
             "en": {
-              "browserTarget": "tomke-portfolio:build:development,en"
+              "browserTarget": "carsplus:build:development,en"
             }
           },
           "defaultConfiguration": "development"
@@ -111,7 +111,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tomke-portfolio:build"
+            "browserTarget": "carsplus:build"
           }
         },
         "test": {
@@ -130,5 +130,5 @@
       }
     }
   },
-  "defaultProject": "tomke-portfolio"
+  "defaultProject": "carsplus"
 }

@@ -4,17 +4,16 @@
 
 export const environment = {
   firebase: {
-    projectId: 'tomke-portfolio',
-    appId: '1:866223817624:web:06bd4a406bfc2ba59b61ed',
-    storageBucket: 'tomke-portfolio.appspot.com',
-    locationId: 'europe-west3',
-    apiKey: 'AIzaSyCYFb-klFXuITecmWv3dq8HqeK5e_J4flE',
-    authDomain: 'tomke-portfolio.firebaseapp.com',
-    messagingSenderId: '866223817624',
+    apiKey: 'AIzaSyDEnQNwIFNIy4ddhpzU2V1U1gvzHFw6WHk',
+    authDomain: 'carsplus-93e91.firebaseapp.com',
+    projectId: 'carsplus-93e91',
+    storageBucket: 'carsplus-93e91.appspot.com',
+    messagingSenderId: '741890069330',
+    appId: '1:741890069330:web:0c475f0f48e53af93fe08b',
   },
   production: false,
-  backendUrl: 'http://localhost:5001/tomke-portfolio/europe-west3',
-  useEmulators: true,
+  backendUrl: 'http://localhost:5001/carsplus-93e91/europe-west3',
+  useEmulators: false,
 };
 
 /*
