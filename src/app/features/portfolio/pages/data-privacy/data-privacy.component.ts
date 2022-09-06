@@ -11,7 +11,7 @@ export class DataPrivacyComponent implements OnInit {
   HeaderBackgroundColor = HeaderBackgroundColor;
 
   constructor(title: Title) {
-    title.setTitle('Datenschutz - Tomke Nils');
+    title.setTitle($localize`Datenschutz - Carsplus`);
   }
 
   ngOnInit(): void {}

@@ -50,7 +50,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   sectionsIntersectionObserver?: IntersectionObserver;
 
   constructor(title: Title) {
-    title.setTitle('Tomke Nils');
+    title.setTitle('Carsplus');
   }
 
   ngOnInit(): void {}

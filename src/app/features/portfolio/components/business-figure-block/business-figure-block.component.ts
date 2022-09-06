@@ -6,6 +6,8 @@ import {
   ViewChild,
   ElementRef,
   OnDestroy,
+  Inject,
+  LOCALE_ID,
 } from '@angular/core';
 import { CountUp } from 'countup.js';
 
@@ -36,7 +38,10 @@ export class BusinessFigureBlockComponent
           const countUp = new CountUp(
             this.countHeading.nativeElement,
             this.count,
-            { separator: '.', duration: Math.random() + 2 }
+            {
+              separator: this.localeId === 'de' ? '.' : ',',
+              duration: Math.random() + 2,
+            }
           );
           if (!countUp.error) {
             countUp.start();
@@ -54,7 +59,7 @@ export class BusinessFigureBlockComponent
     }
   );
 
-  constructor() {}
+  constructor(@Inject(LOCALE_ID) public localeId: string) {}
 
   ngOnInit(): void {}
 

@@ -44,7 +44,7 @@ export class ProjectDetailComponent implements OnInit, OnDestroy {
           return;
         }
         this.project = project;
-        this.title.setTitle(`${this.project!.title} - Tomke Nils`);
+        this.title.setTitle(`${this.project!.title} - Carsplus`);
       });
   }
 

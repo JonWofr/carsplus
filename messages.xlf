@@ -23,6 +23,45 @@
           <context context-type="linenumber">27,38</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="4505591715385906756" datatype="html">
+        <source>Interaktionen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/portfolio/components/business-figures-section/business-figures-section.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8017551758311851701" datatype="html">
+        <source>in den letzten 14 Tagen auf Instagram</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/portfolio/components/business-figures-section/business-figures-section.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/portfolio/components/business-figures-section/business-figures-section.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1446916895916463472" datatype="html">
+        <source>Impressionen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/portfolio/components/business-figures-section/business-figures-section.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8390803680962035202" datatype="html">
+        <source>Follower</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/portfolio/components/business-figures-section/business-figures-section.component.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8987722991523523428" datatype="html">
+        <source>insgesamt auf Instagram</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/portfolio/components/business-figures-section/business-figures-section.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6684485730667512878" datatype="html">
         <source>Schreibe uns eine Nachricht</source>
         <context-group purpose="location">
@@ -212,6 +251,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/portfolio/components/services-section/services-section.component.ts</context>
           <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/pipes/localize-services/localize-services.pipe.ts</context>
+          <context context-type="linenumber">9</context>
         </context-group>
         <note priority="1" from="meaning">Content production</note>
       </trans-unit>
@@ -815,6 +858,13 @@
           <context context-type="linenumber">454,459</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="3688900913291382767" datatype="html">
+        <source>Datenschutz - Carsplus</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/portfolio/pages/data-privacy/data-privacy.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="1193253358691614952" datatype="html">
         <source>Angaben gemäß § 5 TMG</source>
         <context-group purpose="location">
@@ -906,6 +956,13 @@
           <context context-type="linenumber">57,70</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8797605335873480911" datatype="html">
+        <source>Impressum - Carsplus</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/portfolio/pages/impressum/impressum.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3741200213318438827" datatype="html">
         <source> Projekte </source>
         <context-group purpose="location">
@@ -965,14 +1022,6 @@
           <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
           <context context-type="linenumber">102</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="1687243528146310926" datatype="html">
-        <source><x id="PH" equiv-text="ServiceTitle.CONTENT_PRODUCTION"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/pipes/localize-services/localize-services.pipe.ts</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-        <note priority="1" from="meaning">Photography and videography</note>
       </trans-unit>
     </body>
   </file>

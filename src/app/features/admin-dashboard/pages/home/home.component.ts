@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     private spinnerController: SpinnerControllerService,
     title: Title
   ) {
-    title.setTitle('Admin Dashboard - Tomke Nils');
+    title.setTitle('Admin Dashboard - Carsplus');
   }
 
   ngOnInit(): void {

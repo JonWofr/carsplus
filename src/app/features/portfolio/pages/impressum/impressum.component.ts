@@ -11,7 +11,7 @@ export class ImpressumComponent implements OnInit {
   HeaderBackgroundColor = HeaderBackgroundColor;
 
   constructor(title: Title) {
-    title.setTitle('Impressum - Tomke Nils');
+    title.setTitle($localize`Impressum - Carsplus`);
   }
 
   ngOnInit(): void {}

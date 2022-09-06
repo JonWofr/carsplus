@@ -9,7 +9,7 @@
   z-index: 0;
 
   &__item:not(:first-child) {
-    border-top: 1px solid #e7e7e7;
+    border-top: 1px solid $form-control-background-color;
   }
 }
 

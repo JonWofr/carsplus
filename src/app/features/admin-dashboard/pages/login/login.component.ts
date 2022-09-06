@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
     private spinnerController: SpinnerControllerService,
     title: Title
   ) {
-    title.setTitle('Login - Tomke Nils');
+    title.setTitle('Login - Carsplus');
   }
 
   ngOnInit(): void {}

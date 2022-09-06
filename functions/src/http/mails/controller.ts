@@ -36,8 +36,8 @@ export const sendMail = async (req: express.Request, res: express.Response) => {
     `;
 
     const info = await transporter.sendMail({
-      from: '"No Reply" <no-reply@tomke-nils.de>',
-      to: 'kontakt@tomke-nils.de',
+      from: '"No Reply" <no-reply@carsplus-portfolio.de>',
+      to: 'contact@carsplus-portfolio.de',
       subject: 'Neue Kontaktformular-Nachricht',
       text: emailBody,
       html: emailBody,
