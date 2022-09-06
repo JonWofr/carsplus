@@ -49,7 +49,7 @@
 
 @mixin card {
   padding: 2rem 0.75rem;
-  background-color: $primary-background-color-light;
+  background-color: $secondary-background-color-dark;
   border-radius: $default-border-radius;
 
   @include media-breakpoint-up("md") {

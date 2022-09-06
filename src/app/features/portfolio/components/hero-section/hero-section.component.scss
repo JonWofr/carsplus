@@ -5,9 +5,17 @@
 .hero {
   height: 90vh;
   min-height: 500px;
-  background-image: url("/assets/images/hero-background-image-mobile-xs.jpg");
-  background-position-x: 40%;
-  background-size: cover;
+  position: relative;
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
   &__overlay {
     height: 100%;
@@ -100,14 +108,7 @@
     display: none;
   }
 
-  @include media-breakpoint-up("sm") {
-    background-image: url("/assets/images/hero-background-image-mobile-s.jpg");
-  }
-
   @include media-breakpoint-up("md") {
-    background-image: url("/assets/images/hero-background-image-tablet-md.jpg");
-    background-position-y: 65%;
-
     &__content-container {
       top: 30%;
     }
@@ -123,8 +124,6 @@
     }
   }
   @include media-breakpoint-up("lg") {
-    background-image: url("/assets/images/hero-background-image-tablet-lg.jpg");
-
     &__contact-button {
       right: calc(100% - 8rem - (100% - map.get($container-widths, "lg")) / 2);
     }
@@ -134,23 +133,17 @@
       width: 50%;
     }
   }
-  @include media-breakpoint-up("xl") {
-    background-image: url("/assets/images/hero-background-image-tablet-xl.jpg");
 
+  @include media-breakpoint-up("xl") {
     &__contact-button {
       right: calc(100% - 8rem - (100% - map.get($container-widths, "xl")) / 2);
     }
   }
-  @include media-breakpoint-up("xxl") {
-    background-image: url("/assets/images/hero-background-image-tablet-xxl.jpg");
 
+  @include media-breakpoint-up("xxl") {
     &__contact-button {
       right: calc(100% - 8rem - (100% - map.get($container-widths, "xxl")) / 2);
     }
-  }
-
-  @media only screen and (min-width: 1921px) {
-    background-image: url("/assets/images/hero-background-image-tablet-xxxl.jpg");
   }
 }
 

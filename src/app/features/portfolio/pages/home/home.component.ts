@@ -18,6 +18,10 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
       isIntersecting: undefined,
     },
     {
+      id: SectionId.FIGURES,
+      isIntersecting: undefined,
+    },
+    {
       id: SectionId.ABOUT,
       isIntersecting: undefined,
     },

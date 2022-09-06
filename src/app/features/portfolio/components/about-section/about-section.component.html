@@ -11,7 +11,13 @@
         <div class="padding-top-hack padding-top-hack--1-by-1">
           <div class="padding-top-hack__inner-container">
             <img
-              src="/assets/images/about-image.jpg"
+              srcset="
+                /assets/images/about-image-500.jpg   500w,
+                /assets/images/about-image-1000.jpg 1000w,
+                /assets/images/about-image-2000.jpg 2000w
+              "
+              src="/assets/images/about-image-2000.jpg"
+              sizes="(min-width: 768px) 50vw, 100vw"
               alt=""
               class="about__image"
             />

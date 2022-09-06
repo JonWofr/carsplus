@@ -1,5 +1,5 @@
 export enum ServiceTitle {
-  'PHOTOGRAPHY_AND_VIDEOGRAPHY' = 'Fotografie & Videografie',
+  'CONTENT_PRODUCTION' = 'Content Produktion',
   'SOCIAL_MEDIA_MANAGEMENT' = 'Social Media Management',
   'COOPERATIONS' = 'Kooperationen',
 }

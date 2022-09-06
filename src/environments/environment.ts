@@ -13,7 +13,7 @@ export const environment = {
   },
   production: false,
   backendUrl: 'http://localhost:5001/carsplus-93e91/europe-west3',
-  useEmulators: false,
+  useEmulators: true,
 };
 
 /*

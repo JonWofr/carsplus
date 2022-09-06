@@ -1,4 +1,5 @@
 @import "abstracts/variables";
+@import "abstracts/mixins";
 
 .business-figures-section {
   padding: 6rem 0;
@@ -8,6 +9,10 @@
 .business-figure-blocks-container {
   display: flex;
   justify-content: center;
-  gap: 6rem;
   flex-wrap: wrap;
+  gap: 3rem;
+
+  @include media-breakpoint-up("md") {
+    gap: 6rem;
+  }
 }
