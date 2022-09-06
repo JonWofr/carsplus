@@ -3,6 +3,8 @@
 @import "abstracts/mixins";
 
 .about {
+  background-color: $primary-background-color-light;
+
   &__content-container {
     display: flex;
     flex-direction: column;

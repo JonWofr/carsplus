@@ -61,7 +61,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       .pipe(takeUntil(this.endSubscriptions))
       .subscribe({
         next: (instagramApiKeys) => {
-          this.instagramApiKey = instagramApiKeys[0];
+          this.instagramApiKey =
+            instagramApiKeys.length > 0 ? instagramApiKeys[0] : undefined;
         },
         error: this.showErrorToast,
       });

@@ -12,8 +12,6 @@ import { ProjectGalleryComponent } from './components/project-gallery/project-ga
 import { ProjectGalleryItemComponent } from './components/project-gallery-item/project-gallery-item.component';
 import { SharedModule } from '@shared/shared.module';
 import { ClientsSectionComponent } from './components/clients-section/clients-section.component';
-import { TestimonialsSectionComponent } from './components/testimonials-section/testimonials-section.component';
-import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { ContactSectionComponent } from './components/contact-section/contact-section.component';
 import { FormsModule } from '@angular/forms';
 import { ProjectDetailComponent } from './pages/project-detail/project-detail.component';
@@ -21,6 +19,8 @@ import { ProjectDetailSlideshowComponent } from './components/project-detail-sli
 import { NewsSectionComponent } from './components/news-section/news-section.component';
 import { ImpressumComponent } from './pages/impressum/impressum.component';
 import { DataPrivacyComponent } from './pages/data-privacy/data-privacy.component';
+import { BusinessFiguresSectionComponent } from './components/business-figures-section/business-figures-section.component';
+import { BusinessFigureBlockComponent } from './components/business-figure-block/business-figure-block.component';
 
 @NgModule({
   // Necessary for the usage of custom HTML elements (e.g. lottie-files) (which are not angular elements)
@@ -35,14 +35,14 @@ import { DataPrivacyComponent } from './pages/data-privacy/data-privacy.componen
     ProjectGalleryComponent,
     ProjectGalleryItemComponent,
     ClientsSectionComponent,
-    TestimonialsSectionComponent,
-    TestimonialComponent,
     ContactSectionComponent,
     ProjectDetailComponent,
     ProjectDetailSlideshowComponent,
     NewsSectionComponent,
     ImpressumComponent,
     DataPrivacyComponent,
+    BusinessFiguresSectionComponent,
+    BusinessFigureBlockComponent,
   ],
   imports: [CommonModule, PortfolioRoutingModule, SharedModule, FormsModule],
 })

@@ -42,7 +42,10 @@
   }
 
   &__subtitle {
-    color: $secondary-accent-color;
+    background-image: $primary-accent-color;
+    background-clip: text;
+    color: transparent;
+    align-self: flex-start;
   }
 
   &__title {

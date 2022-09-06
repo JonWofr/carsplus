@@ -1,0 +1,13 @@
+@import "abstracts/variables";
+
+.business-figures-section {
+  padding: 6rem 0;
+  background-color: $secondary-background-color-dark;
+}
+
+.business-figure-blocks-container {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,29 @@
+@import "abstracts/variables";
+
+.header {
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  background-image: $primary-accent-color;
+  background-clip: text;
+  color: transparent;
+}
+
+.count-heading {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.count {
+  all: inherit;
+  display: inline;
+}
+
+.note {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: $muted-color;
+}

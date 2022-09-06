@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
     "@lottiefiles/lottie-player": "^1.5.4",
+    "countup.js": "^2.3.2",
     "firebase": "^9.4.0",
     "instafeed.js": "^2.0.0",
     "lodash": "^4.17.21",

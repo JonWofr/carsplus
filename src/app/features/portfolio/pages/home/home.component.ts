@@ -4,7 +4,7 @@ import { HeaderBackgroundColor } from '@shared/enums/header-background-color.enu
 import { SectionId } from '@shared/enums/section-id.enum';
 
 @Component({
-  selector: 'app-home',
+  selector: 'portfolio-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
 })
@@ -31,10 +31,6 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     },
     {
       id: SectionId.CLIENTS,
-      isIntersecting: undefined,
-    },
-    {
-      id: SectionId.TESTIMONIALS,
       isIntersecting: undefined,
     },
     {

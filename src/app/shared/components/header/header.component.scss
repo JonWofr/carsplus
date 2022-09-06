@@ -11,8 +11,8 @@
   @include with-transition(all);
 
   &--white {
-    box-shadow: 0 4px 4px 0 #b3b3b340;
-    border-bottom: 1px solid $primary-background-color-light;
+    box-shadow: 0 4px 16px 0 hsla(244, 20%, 5%, 0.4);
+    border-bottom: 1px solid $secondary-background-color-dark;
   }
   &--transparent {
     box-shadow: none;
@@ -29,7 +29,7 @@
     @include with-transition(background-color);
 
     &--white {
-      background-color: $primary-background-color-light;
+      background-color: $secondary-background-color-dark;
     }
 
     &--transparent {
@@ -73,7 +73,7 @@
 
   &__navigation {
     height: 0px;
-    background-color: $primary-background-color-light;
+    background-color: $secondary-background-color-dark;
     overflow: hidden;
     @include with-transition(height);
 
@@ -135,7 +135,7 @@
     height: $default-header-height;
 
     &--white {
-      background-color: $primary-background-color-light;
+      background-color: $secondary-background-color-dark;
     }
 
     &--transparent {
