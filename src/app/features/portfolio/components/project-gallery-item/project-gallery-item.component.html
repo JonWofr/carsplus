@@ -1,0 +1,39 @@
+<div class="project-gallery-item">
+  <a
+    class="project-gallery-item__link"
+    [routerLink]="'/projects/' + project?.id"
+  >
+  </a>
+  <div class="project-gallery-item__overlay">
+    <h3 class="subtitle project-gallery-item__subtitle">
+      {{ project ? (project.services | localizeServices).join(", ") : "" }}
+    </h3>
+    <h4 class="project-gallery-item__title" [ngSwitch]="localeId">
+      <ng-container *ngSwitchCase="'en'">
+        {{ project?.titleEn }}
+      </ng-container>
+      <ng-container *ngSwitchCase="'de'">
+        {{ project?.title }}
+      </ng-container>
+    </h4>
+    <p class="project-gallery-item__description" [ngSwitch]="localeId">
+      <ng-container *ngSwitchCase="'en'">
+        {{ project ? (project.descriptionEn | cropText: 15) : undefined }}
+      </ng-container>
+      <ng-container *ngSwitchCase="'de'">
+        {{ project ? (project.description | cropText: 15) : undefined }}
+      </ng-container>
+    </p>
+  </div>
+  <img
+    [srcset]="
+      project
+        ? (project.thumbnailImageUrl | parseResponsiveImageURLs)
+        : undefined
+    "
+    sizes="(min-width: 720px) 600px, 500px"
+    [src]="project?.thumbnailImageUrl"
+    alt=""
+    class="project-gallery-item__thumbnail-image"
+  />
+</div>

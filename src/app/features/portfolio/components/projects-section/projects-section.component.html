@@ -1,0 +1,22 @@
+<section class="section projects">
+  <div class="container">
+    <shared-section-header
+      title="Meine letzten Projekte"
+      subtitle="Projekte"
+      i18n-title
+      i18n-subtitle
+    ></shared-section-header>
+  </div>
+  <div class="projects__project-gallery-container">
+    <ng-container *ngIf="projects; else spinner">
+      <portfolio-project-gallery
+        [projects]="projects"
+      ></portfolio-project-gallery>
+    </ng-container>
+    <ng-template #spinner>
+      <div class="projects__spinner-container">
+        <shared-spinner [isEmbedded]="true"></shared-spinner>
+      </div>
+    </ng-template>
+  </div>
+</section>
