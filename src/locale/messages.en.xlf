@@ -339,7 +339,7 @@
       </trans-unit>
       <trans-unit id="6754616735672167380" datatype="html">
         <source>Mit unserer Agentur &lt;a href=&quot;https://moveupmedia.de/&quot; target=&quot;_blank&quot; class=&quot;moveup-media-link&quot;&gt;moveUP Media&lt;/a&gt; unterstützen wir zahlreiche Unternehmen und bieten das gesamte Spektrum für einen erfolgreichen Social Media Auftritt.</source>
-        <source>With our agency &lt;a href=&quot;https://moveupmedia.de/&quot; target=&quot;_blank&quot; class=&quot;moveup-media-link&quot;&gt;moveUP Media&lt;/a&gt; we support numerous companies and offer the entire spectrum for a successful social media presence.</source>
+        <target>With our agency &lt;a href=&quot;https://moveupmedia.de/&quot; target=&quot;_blank&quot; class=&quot;moveup-media-link&quot;&gt;moveUP Media&lt;/a&gt; we support numerous companies and offer the entire spectrum for a successful social media presence.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/portfolio/components/services-section/services-section.component.ts</context>
           <context context-type="linenumber">27</context>
