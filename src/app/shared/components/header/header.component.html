@@ -1,7 +1,9 @@
 <header
   *ngIf="backgroundColor"
-  class="header"
-  [ngClass]="'header--' + backgroundColor"
+  [class]="'header header--' + backgroundColor"
+  [ngClass]="{
+    'header--expanded': shouldShowNavigationMenu
+  }"
 >
   <div class="container container--tablet header__inner-container">
     <div
