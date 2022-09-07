@@ -12,7 +12,7 @@ export const sendMail = async (req: express.Request, res: express.Response) => {
     }: { senderName: string; senderEmail: string; message: string } = req.body;
 
     const transporter = nodemailer.createTransport({
-      host: 'smtp.zoho.eu',
+      host: 'smtppro.zoho.com',
       port: 587,
       secure: false,
       auth: {

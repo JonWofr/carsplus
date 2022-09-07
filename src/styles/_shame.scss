@@ -13,3 +13,10 @@
 body {
   background-color: $primary-background-color-dark;
 }
+
+// Has to be global because the class is set in a string rather than in the template
+.moveup-media-link {
+  font-family: $secondary-font-bold;
+  color: $primary-font-color-dark;
+  text-decoration: underline;
+}

@@ -12,6 +12,7 @@ export class SocialMediaChannelsComponent implements OnInit {
   @Input() instagramUrl?: string;
   @Input() tikTokUrl?: string;
   @Input() linkedInUrl?: string;
+  @Input() youtubeUrl?: string;
   @Input() iconsColor: SocialMediaIconsColor = SocialMediaIconsColor.LIGHT;
 
   constructor() {}

@@ -15,6 +15,10 @@
           <context context-type="sourcefile">src/app/features/portfolio/components/about-section/about-section.component.html</context>
           <context context-type="linenumber">5</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="2097805296557258859" datatype="html">
         <source> Carsplus.de – das sind Luca Valentin und Tomke Janowitz. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Im jungen Alter haben wir unsere Instagram Karriere, gekoppelt mit der Leidenschaft für exklusive Fahrzeuge, gestartet. Was damals als Hobby begann, ist mittlerweile zu unserem Beruf geworden. Mit unterschiedlichsten Automobilherstellern bereisen wir die Welt und produzieren Content unserer Abendteuer und der spannenden Fahrzeuge. Inzwischen nutzen wir unsere Expertise im Bereich Marketing, Social Media Management sowie Content-Produktion auch, um verschiedene Partner und Kunden in den sozialen Netzwerken zu positionieren. </source>
@@ -143,8 +147,8 @@
           <context context-type="linenumber">151</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4915196029691427866" datatype="html">
-        <source> Versuche es bitte erneut. Falls das Problem weiterhin besteht, kontaktiere mich bitte über die am Seitenende stehende E-Mail-Adresse. </source>
+      <trans-unit id="1063846998521394343" datatype="html">
+        <source> Versuche es bitte erneut. Falls das Problem weiterhin besteht, kontaktiere uns bitte über die am Seitenende stehende E-Mail-Adresse. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/portfolio/components/contact-section/contact-section.component.html</context>
           <context context-type="linenumber">152,155</context>
@@ -164,8 +168,8 @@
           <context context-type="linenumber">182</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1568587018136647077" datatype="html">
-        <source> Ich schreibe dir in Kürze zurück. </source>
+      <trans-unit id="6641159654206929748" datatype="html">
+        <source> Wir schreiben dir in Kürze zurück. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/portfolio/components/contact-section/contact-section.component.html</context>
           <context context-type="linenumber">183,185</context>
@@ -189,7 +193,7 @@
         <source> Kontakt </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/portfolio/components/hero-section/hero-section.component.html</context>
-          <context context-type="linenumber">63,65</context>
+          <context context-type="linenumber">65,67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1219697614219117382" datatype="html">
@@ -246,11 +250,30 @@
           <context context-type="linenumber">119</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="1627295524804725087" datatype="html">
+        <source><x id="PH" equiv-text="ServiceTitle.COOPERATIONS"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/portfolio/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/pipes/localize-services/localize-services.pipe.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="meaning">Cooperations</note>
+      </trans-unit>
+      <trans-unit id="2501121478992385786" datatype="html">
+        <source>Mehr Reichweite erzielen, Produkte oder Dienstleistungen via Social Media bewerben? - Durch eine Kooperation mit uns können sie hunderttausende Menschen erreichen.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/portfolio/components/services-section/services-section.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="4206041479197391513" datatype="html">
         <source><x id="PH" equiv-text="ServiceTitle.CONTENT_PRODUCTION"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/portfolio/components/services-section/services-section.component.ts</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">21</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/pipes/localize-services/localize-services.pipe.ts</context>
@@ -262,14 +285,14 @@
         <source>Von individuellen Katalogbildern bis hin zum umfangreichen Imagefilm: Wir übernehmen es!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/portfolio/components/services-section/services-section.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="156331020123388240" datatype="html">
         <source><x id="PH" equiv-text="ServiceTitle.SOCIAL_MEDIA_MANAGEMENT"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/portfolio/components/services-section/services-section.component.ts</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">26</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/pipes/localize-services/localize-services.pipe.ts</context>
@@ -277,27 +300,8 @@
         </context-group>
         <note priority="1" from="meaning">Social media management</note>
       </trans-unit>
-      <trans-unit id="3568662179348024861" datatype="html">
-        <source>Durch unser strategisches Know-how bieten wir das gesamte Spektrum für einen erfolgreichen Social Media Auftritt. &lt;br&gt; &lt;br&gt; Zu &lt;a href=&quot;https://moveupmedia.de/&quot; target=&quot;_blank&quot;&gt;moveUP Media&lt;/a&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/features/portfolio/components/services-section/services-section.component.ts</context>
-          <context context-type="linenumber">22</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1627295524804725087" datatype="html">
-        <source><x id="PH" equiv-text="ServiceTitle.COOPERATIONS"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/features/portfolio/components/services-section/services-section.component.ts</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/pipes/localize-services/localize-services.pipe.ts</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-        <note priority="1" from="meaning">Cooperations</note>
-      </trans-unit>
-      <trans-unit id="2501121478992385786" datatype="html">
-        <source>Mehr Reichweite erzielen, Produkte oder Dienstleistungen via Social Media bewerben? - Durch eine Kooperation mit uns können sie hunderttausende Menschen erreichen.</source>
+      <trans-unit id="6754616735672167380" datatype="html">
+        <source>Mit unserer Agentur &lt;a href=&quot;https://moveupmedia.de/&quot; target=&quot;_blank&quot; class=&quot;moveup-media-link&quot;&gt;moveUP Media&lt;/a&gt; unterstützen wir zahlreiche Unternehmen und bieten das gesamte Spektrum für einen erfolgreichen Social Media Auftritt.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/portfolio/components/services-section/services-section.component.ts</context>
           <context context-type="linenumber">27</context>
@@ -1006,7 +1010,7 @@
     &gt;"/> moveUP Media <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> vorbei! </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/footer/footer.component.html</context>
-          <context context-type="linenumber">53,63</context>
+          <context context-type="linenumber">55,65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
@@ -1014,13 +1018,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
           <context context-type="linenumber">85</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="422120872028529900" datatype="html">
-        <source>Über mich</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
-          <context context-type="linenumber">102</context>
         </context-group>
       </trans-unit>
     </body>
